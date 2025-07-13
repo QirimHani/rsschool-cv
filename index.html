@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kendzhaliiev Ilias</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -69,14 +69,19 @@
             </ul>
         </section>
 
+    <hr>
+
         <section id="js-example">
             <h2>Code:</h2>
-            <pre><code>
-                &lt;h2&gt;What can JavaScript do?&lt;/h2&gt;
-                &lt;p id="demo"&gt;JavaScript can change the content of HTML elements.&lt;/p&gt;
-                &lt;button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'&gt;Click me!
-                &lt;/button&gt;
-            </code></pre>
+    <p>Код программы</p>
+    <p><code>
+    function checkParent (src, dest) {<Br>
+        while (src != null) {<Br>
+        if (src.tagName == dest) return src<Br>
+        src = src.parentElement<Br>
+        }<Br>
+        return null<Br>
+    }</code></p>
         </section>
     </main>
 
